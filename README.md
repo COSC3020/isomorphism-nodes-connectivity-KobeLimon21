@@ -10,7 +10,7 @@ $G_1=(V_1 , E_1)$ is isomorphic to $G_2 = (V_2, E_2)$ if there exists a
 one-to-one and onto function (bijection) $f: V_1 \rightarrow V_2$ such that $(u,v)
 \in E_1$ iff $(f(u),f(v)) \in E_2$.
 
-If two graphs A and B have the same number of nodes and are completely connnected, they have to be isomorphic. Consider graph a with 3 nodes and graph b with 3 nodes. The definition of isomorphic says that there exists a bijection. Since they have the equivalent amount of nodes, we can match each node to eachother without leaving any nodes out making it one to one. Being that they are completely connected, every node has an edge to every other node, which lets us map every edge in a to b. By the definition of isomorphic, these graphs must be isomorphic. 
+If two graphs G1 and G2 are of the same size n and are completely connnected, they have to be isomorphic. The definition of isomorphic says that there exists a bijection. Since they have the equivalent amount of nodes, we can match each node to eachother without leaving any nodes out making it one to one. Being that they are completely connected, every node in G1 has n-1 edges connecting it to every other node which also applies to G2. This makes it onto, being that every node can be mapped to one another in the graphs. By the definition of isomorphic, these graphs must be isomorphic. 
 
 
 Sources: None 
